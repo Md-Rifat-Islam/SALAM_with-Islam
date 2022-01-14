@@ -315,7 +315,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-weight: 700;
 }
 #hero-no-slider p {
-  color: rgb(10, 10, 10);
+  color: rgb(0 0 0);
+  font-weight: bold;
+  background-color: #12dce894;
+  border-radius: 14px;
 }
 #hero-no-slider .btn-get-started {
   font-family: "Roboto", sans-serif;
@@ -332,6 +335,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #000000;
+  background-color: #149ded5c;
 }
 #hero-no-slider .btn-get-started:hover {
   background: rgba(4, 225, 233, 0.8);
@@ -349,7 +353,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .firstimg h1{
   color: #000000;
   text-align: center;
-  font-size: 500%;
+  font-size: 300%;
 }
 .firstimg img{
   border-radius: 50px;
@@ -1037,7 +1041,6 @@ gap: 30px; */
   flex-basis: 31%;
   background: #fff3f3;
   border-radius: 10px;
-  /* border-radius: 10px; */
   margin-bottom: 5%;
   padding: 20px 12px;
   box-sizing: border-box;
@@ -1125,7 +1128,7 @@ gap: 30px; */
 }
  /* comment------- */
 .commment{
-  background: linear-gradient( rgba(4, 218, 233, 0.459), #227488), url("../img/card-with-blue-envelope.webp") center top no-repeat;
+  background: linear-gradient( #BDE6F8, #2c3031), url("../img/card-with-blue-envelope.webp") center top no-repeat;
 }
 /*--------------------------------------------------------------
 # Team
